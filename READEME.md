@@ -1,1 +1,0 @@
-# cg-projeto-huddle-base
