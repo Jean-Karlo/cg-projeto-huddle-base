@@ -1,0 +1,79 @@
+@media (max-width: 1284px) {
+    body{
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1228px) {
+    section .imgbox{
+        max-width: 550px;
+    }
+
+    section .texts{
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1030px) {
+    section .imgbox{
+        max-width: 600px;
+    }
+
+    section .texts{
+        max-width: 400px;
+    }
+
+    .texts h1{
+        font-size: 2rem;
+    }
+
+    .texts p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 911px) {
+    body{
+       background: url(../images/bg-mobile.svg) no-repeat;
+       background-size: contain; 
+       background-color: var(--Violet);
+    }
+
+    section{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .imgbox{
+        width: 100%;
+    }
+
+    section .texts{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .texts a {
+        padding: 8px 60px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    footer ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 721px) {
+    header {
+        padding: 40px 60px;
+    }
+
+    main {
+        padding: 150px 60px 30px;
+    }
+}
